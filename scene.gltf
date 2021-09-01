@@ -1,0 +1,312 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1630,
+      "max": [
+        100,
+        100,
+        100
+      ],
+      "min": [
+        -100,
+        -100,
+        -100
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 19560,
+      "componentType": 5126,
+      "count": 1630,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1630,
+      "max": [
+        0.80836915969848633,
+        0.9999045729637146,
+        0.99376487731933594,
+        1
+      ],
+      "min": [
+        -0.92427468299865723,
+        -0.34723347425460815,
+        -0.9999767541885376,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1630,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0.0009765625,
+        0.0009765625
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 13040,
+      "componentType": 5126,
+      "count": 1630,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0.0009765625,
+        0.0009765625
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 26080,
+      "componentType": 5126,
+      "count": 1630,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0.0009765625,
+        0.0009765625
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 9216,
+      "max": [
+        1629
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "clickercritter (https://sketchfab.com/clickercritter)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/planet-paint3d-dd41421cf6bd48c0af94b5b89a21127c",
+      "title": "Planet Paint3D"
+    },
+    "generator": "Sketchfab-6.33.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 36864,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 39120,
+      "byteOffset": 36864,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 39120,
+      "byteOffset": 75984,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 26080,
+      "byteOffset": 115104,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 141184,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.45490199999999997,
+            0.45490199999999997,
+            0.45490199999999997,
+            1
+          ],
+          "glossinessFactor": 1,
+          "specularFactor": [
+            0.039215699999999999,
+            0.039215699999999999,
+            0.039215699999999999
+          ]
+        }
+      },
+      "name": "material"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Correction matrix"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "root_1"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        0.0010000000474974513,
+        0,
+        0,
+        0,
+        0,
+        0.0010000000474974513,
+        0,
+        0,
+        0,
+        0,
+        0.0010000000474974513,
+        0,
+        -0.06029016524553299,
+        0.067011989653110504,
+        0.19999998807907104,
+        1
+      ],
+      "name": "mesh_id26_0"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
